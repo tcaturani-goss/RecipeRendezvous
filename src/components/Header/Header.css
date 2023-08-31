@@ -1,0 +1,51 @@
+.header-main-container {
+    color: var(--white);
+    height: var(--header-height);
+    background-color: var(--transparent-bg);
+    width: 100%;
+    top: 0;
+    padding: 0rem 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header-logo-text-link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.recipe-rendezvous-logo {
+    width: 3.125rem;
+    height: 3.125rem;
+}
+
+.header-link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.username {
+    padding-right: 1rem;
+}
+
+.auth-link {
+    color: var(--white);
+    background-color: var(--desert-sand);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    color: var(--white);
+    margin-left: 0.625rem;
+}
+
