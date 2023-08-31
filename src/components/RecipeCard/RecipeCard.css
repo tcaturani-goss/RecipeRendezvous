@@ -1,0 +1,43 @@
+.recipe-card-flex {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+    margin: 0rem 2rem 5rem 2rem;
+}
+
+.recipe-card-main-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 3rem 0rem;
+}
+
+.recipe-cards-img {
+    width: 100%;
+    height: 25rem;
+    object-fit: cover;
+}
+
+.recipe-cards-info {
+    background-color: lightgrey;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 1rem;
+    box-sizing: border-box; /* Add this line to include padding in width */
+}
+
+.recipe-card-title, .recipe-card-description {
+    color: black;
+}
+
+.recipe-card-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.recipe-card-description {
+    line-height: 1.25rem;
+    margin-top: 0.5rem;
+}

@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Epilogue', sans-serif;
+}
+
+:root {
+  --dark-bg: #221f1f;
+  --ash-gray: #A8BEB5;
+  --desert-sand: #EAC7A4;
+  --white: #fff;
+  --light-bg: #f7f3f3;
+  --transparent-bg: #864872;
+  --header-height: 70px;
+  --black: #000;
+  --light-bg:#f7f3f3;
+  --button-bg:rgb(77, 77, 156);
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  color: white;
+}
+
+h1 {
+  color: var(--black);
+}

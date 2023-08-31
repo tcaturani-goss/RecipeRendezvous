@@ -1,0 +1,6 @@
+.likes-container {
+    display: flex;
+    justify-content: center;
+    gap: 0.25rem;
+    color: black;
+}
